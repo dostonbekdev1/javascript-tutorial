@@ -1,1 +1,4 @@
 // javascript operators
+
+// true || true
+
