@@ -1,4 +1,5 @@
 // javascript operators
 
-// true || true
+
+alert(true || true)
 
