@@ -1,5 +1,7 @@
 // function {}
 
+
+let name1 = "Hey"
 let say =()=>{
-     console.log("Helllo");
+     console.log(`${name1} hello`);
 }
