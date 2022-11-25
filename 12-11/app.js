@@ -58,7 +58,7 @@
 
 //     console.log(10 == 10) // true (comparisions always return boolean)
 
-// Logical Operators: || &&
+// Logical Operators: || , &&
 
 //     || - OR
 
