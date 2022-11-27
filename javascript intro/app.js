@@ -23,3 +23,31 @@
 // null === undefined // false
 // typeof null // object  // object
 // typeof function // function 
+
+// number , boolean, string, null, undefined,symbol, bigInt, object
+
+// let num = 82; // type number
+
+// let boolean = true  //, false 
+
+// let str = "text"
+
+// let variable = Symbol(123);
+
+// let num = 78383917193839183291388n - 1n;
+
+// console.log(num );
+// // var , let , const
+
+// let name = "some text"
+
+// console.log(name);
+
+// name = " salom"
+
+// console.log(name);
+
+
+// const name = "salom"
+
+// name="some text"
