@@ -48,3 +48,4 @@
 // }
 
 // console.log(str.replaceAll(/Web/gi, "WEB"));
+// console.log(str.replaceAll(/Web/gi, "WEB"));
