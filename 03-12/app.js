@@ -1,51 +1,83 @@
-// let str1 = "1   webb  \b 'rain'    ";
-// let str2 = '2 . web "brain" ';
-// let str3 = `3webb
-// ${str1}
-// \t '"
-// rain`;
+// let name = "webbrain";
 
-// let str4 = str1 + str2;
+// let obj = { name: "test", child: { name: "name" } };
 
-// console.log(str3);
+// const { name: newName, child:{name:test} } = obj;
 
-// let str1 = "webbrain";
+// ======
+// let obj = {
+//   name: "test",
+//   child: { name: "name" },
+//   // sayHi: function(){}
+//   // sayHi(){}
+//   //
+// };
+// console.log({ ...obj });
 
-// console.log(str1[1]);
-// console.log(str1[-1]);
-// console.log(str1.at(-1));
-// console.log(str1.charAt(1));
+// "name" in obj;
 
-// let str2 = new String("webbrain");
-// console.log(str2 == "webbrain");
+// console.log(100_000_000 + 1);
 
-// console.log(str1.localeCompare(str2)); // -1, 0 ,1
+// let num = "0.1 + 0.2*1";
 
-// let str = "webbrain ";
+// console.log(Number(num.toFixed(1))); // +, Number
 
-// console.log(`${str}`.toLocaleLowerCase('en-US'));
-// console.log(`${str}`.toLowerCase());
+// console.log(parseInt(num));
+// console.log(parseFloat(num));
+// console.log(eval(num));
 
-// console.log(str.indexOf("bb"));
-// console.log(str.lastIndexOf("bb", 14));
+// console.log(Number.parseInt(num));
+// console.log(Number.parseFloat(num));
 
-// console.log(str.startsWith("web"));
-// console.log(str.endsWith("emyy"));
+// let num = "0.1 + 0.2*1";
 
-// console.log(str.padEnd(22, "."));
-// console.log(str.padStart(22, "."));
+// console.log(+"1_000" + 1);
 
-// console.log(str.slice(0, -2));
-// console.log(str.substring(2, 0));
-// console.log(str.substr(-2, 2));
+// let num = 5;
 
-// let str = "web brain acad web emy";
+// console.log(num.toString(16));
+// console.log(parseInt("5", 16));
 
-// console.log(str.split(" ", 3));
+// console.log(isNaN(+"1_000"));
 
-// for (char of str) {
-//   console.log(char);
-// }
+// let res = Object.is("web", "webb");
+// console.log(res);
 
-// console.log(str.replaceAll(/Web/gi, "WEB"));
-// console.log(str.replaceAll(/Web/gi, "WEB"));
+// let num = 5.123456;
+// let num1 = 0.00103456;
+
+// console.log(num.toPrecision(3));
+// console.log(num1.toPrecision(3));
+
+// console.log(9_999_999_999_999_999);
+
+// console.log(Math.ceil(10.001));
+// console.log(Math.floor(-10.999));
+// console.log(Math.trunc(-10.999));
+
+// 10
+// 100
+// 1000
+// 10000
+// console.log(Math.trunc(Math.random() * 1000));
+
+// console.log(Math.min(1, 2, 32, 3, 2, 5, 7, 8, 4, 3));
+// console.log(Math.max(1, 2, 32, 3, 2, 5, 7, 8, 4, 3));
+
+// console.log(Math.pow(6, 4));
+// console.log(6 ** 4);
+
+// console.log(Math.sqrt(9));
+// console.log(Math.cbrt(27));
+
+// console.log(Math.sign(-0));
+// console.log(Math.sign(0));
+// console.log(Math.sign(123));
+// console.log(Math.sign(-123));
+// console.log(Math.sign("-123"));
+// console.log(Math.sign(123e3));
+
+// let obj = { name: "webbrain", child: null };
+
+// // console.log(obj.age);
+// console.log(obj.child?.age);
