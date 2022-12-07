@@ -104,3 +104,31 @@
 // let res = num.filter((value, index) => {
 //   return value < 10;
 // });
+
+
+
+// let arr = ["ie,iei"]
+// let a = ["m"]
+// arr+a
+// console.log(arr+a);
+
+
+
+// function likes(names) {
+//      for (let i = 0; i < names.length; i++) {
+//           if (names.length == 0) return "no one likes this"
+//           else names[i] + `like this`
+//      }
+// }
+
+// likes()
+
+
+// function solution(str) {
+//      for (let i = 0; i < str.length; i++) {
+//      return str[i]               
+
+//      }
+// }
+
+// console.log(solution(["text","text","text"]));
