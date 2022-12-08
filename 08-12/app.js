@@ -7,6 +7,7 @@
 //   { id: 6, year: 2002, name: "Hudoyberdieva Mohichehra " },
 //   { id: 7, year: 2007, name: "Muhammad Nurmirzayev" },
 //   { id: 8, year: 2002, name: "Shukurov Shohruh" },
+//   { id: 8, year: 2002, name: "Dostonbek Abdusattarov" }
 // ];
 
 // const updateUser = ({ id, key, value }) => {
