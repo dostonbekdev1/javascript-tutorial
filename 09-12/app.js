@@ -105,3 +105,12 @@ Object.entries(prices).map(entry => [entry[0], entry[1] * 2])
 );
 
 alert(doublePrices.meat); // 8
+
+
+let salaries = {
+     "John": 100,
+     "Pete": 300,
+     "Mary": 250
+   };
+   
+   alert( sumSalaries(salaries) ); // 650
