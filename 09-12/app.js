@@ -3,7 +3,6 @@
 //   { id: 2, year: 2000, name: "Asilbek Topilov" },
 //   { id: 3, year: 2002, name: "Najmiddin Nazarov " },
 //   { id: 4, year: 2002, name: "Mominov Abdulloh" },
-//   { id: 5, year: 1995, name: "Sardor Tursunboyev" },
 //   { id: 6, year: 2002, name: "Hudoyberdieva Mohichehra " },
 //   { id: 7, year: 2007, name: "Muhammad Nurmirzayev" },
 // ];
